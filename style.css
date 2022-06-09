@@ -1,0 +1,246 @@
+*,
+*:after,
+*:before {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Kanit, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* second Header */
+
+body {
+    background-color: black;
+}
+
+
+.second-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    height: 224.68px;
+    width: 100%;
+    align-items: center;
+    max-width: 1200px;
+
+}
+
+.search-bar {
+    background-color: rgb(55, 47, 71);
+    border-radius: 16px;
+    box-shadow: rgb(74 74 104 / 10%) 0px 2px 2px -1px inset;
+    color: rgb(244, 238, 255);
+    display: block;
+    font-size: 16px;
+    height: 40px;
+    outline: 0px;
+    padding: 0px 16px;
+    width: 247.44px;
+    border: 1px solid rgb(38, 33, 48);
+    font-family: sans-serif;
+}
+
+
+.nft-marketplace {
+
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.1;
+    color: rgb(154, 106, 255);
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 24px;
+    font-size: 48px;
+    font-family: kanit, sans-serif;
+}
+
+
+.buy-and-sell {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.1;
+    color: rgb(244, 238, 255);
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 24px;
+    font-family: kanit, sans-serif;
+}
+
+.second-header-container {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(139.73deg, rgb(49, 61, 92) 0%, rgb(61, 42, 84) 100%);
+    justify-content: center;
+    border-bottom-left-radius: 100% 20%;
+    border-bottom-right-radius: 100% 20%;
+}
+
+
+/* Upper bar */
+
+.first-p {
+    color: #f4eeff;
+    font-family: Kanit, sans-serif;
+    font-size: 24px;
+    line-height: 26.4px;
+    text-align: start;
+    letter-spacing: normal;
+}
+
+
+.upbar-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    max-width: 1200px;
+    padding: 200px;
+    margin-left: 400px;
+}
+
+.upbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    position: relative;
+    align-items: center;
+    border-radius: 16px;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    opacity: 1;
+    outline: 0px;
+    transition: background-color 0.2s ease 0s, opacity 0.2s ease 0s;
+    height: 32px;
+    padding: 0px 16px;
+    background-color: transparent;
+    border: 2px solid rgb(31, 199, 212);
+    box-shadow: none;
+    color: rgb(31, 199, 212);
+}
+
+
+.btn:hover {
+    opacity: 0.65;
+}
+
+
+.kVCAzl {
+    filter: none !important;
+}
+
+
+.kVCAzl {
+    align-self: center;
+    fill: rgb(31, 199, 212);
+    flex-shrink: 0;
+    margin-left: 0.5rem;
+}
+
+/* card */
+
+.card-container {
+    width: 318px;
+    height: 417px;
+    padding: 8px;
+    background-color: #27262c;
+
+}
+
+.c-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    color: aliceblue;
+    background: rgb(56, 50, 65);
+    border-radius: 5px;
+    color: rgb(244, 238, 255);
+    overflow: hidden;
+    position: relative;
+    padding: 1px 1px 3px;
+    width: 318px;
+}
+
+
+.line {
+    border-top: 1px solid rgb(56, 50, 65);
+    padding-top: 8px;
+}
+
+.img-container img {
+    border-radius: 5px;
+}
+
+.p-squad {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: start;
+    letter-spacing: normal;
+    color: #b8add2;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.p-140 {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: start;
+    letter-spacing: normal;
+    color: f4eeff;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.asking {
+    color: rgb(184, 173, 210);
+    font-weight: 400;
+    line-height: 1.5;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    max-width: 120px;
+
+}
+
+.dollar {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(184, 173, 210);
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 12px;
+    align-items: center;
+}
+
+.svg {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.num-container {
+    color: rgb(244, 238, 255);
+    line-height: 1.5;
+    font-weight: 600;
+    font-size: 16px;
+
+}
